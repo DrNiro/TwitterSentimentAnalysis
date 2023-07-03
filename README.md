@@ -19,7 +19,7 @@ The data is indexed into an AWS DynamoDB NoSQL database.
 
 ## Features
 * Real-time tweet analysis: The project leverages the Twitter API to fetch real-time tweets and performs sentiment analysis to identify harmful and abusive content.
-* Sentiment analysis: Used TextBlob library for this purpose, and selected monitored corpus to take into consideration specific words.
+* Sentiment analysis: Used TextBlob library to calculate sentiment score, and selected monitored corpus to take into consideration specific words.
 * Kafka integration: Efficient data streaming and processing are achieved through Kafka, enabling scalable and fault-tolerant tweet analysis.
 * Spark streaming: The Spark streaming job consumes tweets from Kafka, allowing for real-time analysis and efficient handling of high volumes of data.
 * AWS database integration: The project saves the detected tweets and their analysis results in an AWS database for storage and further analysis.
