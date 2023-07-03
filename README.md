@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Tweets Analyzer project is a Python-based solution that analyzes real-time tweets from Twitter. It utilizes sentiment analysis techniques to identify harmful and abusive content and contribute to a safer online environment. The project integrates Kafka and Spark for efficient data processing and analysis, ensuring scalability and real-time insights.
+Perform real-time sentiment analysis on tweets using Spark and Kafka, while monitoring potentially harmful content. It identify harmful and abusive content and contribute to a safer online environment. The project integrates Kafka, Spark and AWS DB for efficient data processing and analysis, ensuring scalability and real-time insights.
 
 ## Architecture
 To achieve a real-time pipeline the Lambda Architecture is implemented, consisted of three main layers.
